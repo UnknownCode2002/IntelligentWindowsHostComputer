@@ -1,9 +1,57 @@
+# VS Code
+.vscode/
 .vs/
-bin/
-obj/
+
+# Visual Studio
+*.vs/
 *.user
+*.userprefs
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options
+.vs/
+.vscode/
+
+# User-specific files
+*.rsuser
 *.suo
+*.user
 *.userosscache
 *.sln.docstates
-packages/
-*.vsix
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+
+# Local History for Visual Studio
+.localhistory/
+
+# BeatPulse healthcheck temp database 
+healthchecksdb
+
+# Backup & swap files
+*.bak
+*.swp
+*~

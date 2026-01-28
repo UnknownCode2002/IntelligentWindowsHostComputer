@@ -1,0 +1,1034 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApeFree.ApeForms.Core</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "F:ApeFree.ApeForms.Core.Controls.ImageButton.styles" -->
+        <member name="F:ApeFree.ApeForms.Core.Controls.ImageButton.isInSide">
+            <summary>
+            鼠标处于控件内部
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.ImageButton.PerformClick">
+            <summary>
+            触发Click事件
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.ImageButton.GenerateStatusImages(System.Drawing.Bitmap,System.Boolean,System.Boolean)">
+            <summary>
+            生成按钮所需的所有图像
+            </summary>
+            
+        </member>
+        <member name="F:ApeFree.ApeForms.Core.Controls.ImageButton.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.ImageButton.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.ImageButton.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeForms.Core.Controls.ButtonStyles">
+            <summary>
+            按钮状态图片集
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeForms.Core.Controls.ShapeButton">
+            <summary>
+            图形按钮
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Core.Controls.ShapeButton.GraphicScale">
+            <summary>
+            图形比例
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Core.Controls.ShapeButton.Shape">
+            <summary>
+            图形样式
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeForms.Core.Controls.ShapeButton.SimpleShape">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Core.Controls.CardView.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.CardView.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.CardView.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Core.Controls.Magnet.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.Magnet.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.Magnet.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Core.Controls.SimpleCard.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.SimpleCard.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.SimpleCard.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Core.Controls.AlignCenterBox.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.AlignCenterBox.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.AlignCenterBox.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Core.Controls.Shutter.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.Shutter.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.Shutter.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Core.Controls.SimpleButtonShutter.ButtonGroupId">
+            <summary>
+            按钮分组编号
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeForms.Core.Controls.PageChangedEventHandler">
+            <summary>
+            页面切换事件委托
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="P:ApeFree.ApeForms.Core.Controls.SlideBox.PageIndex">
+            <summary>
+            当前页码
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Core.Controls.SlideBox.PageCount">
+            <summary>
+            页面总数
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Core.Controls.SlideBox.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.SlideBox.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.SlideBox.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="E:ApeFree.ApeForms.Core.Controls.DatePicker.DatePicked">
+            <summary>
+            日期选择事件
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Core.Controls.DatePicker.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.DatePicker.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.DatePicker.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeForms.Core.Controls.DatePickedEventArgs">
+            <summary>
+            日期选择事件参数
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Core.Controls.DaysPicker.DayPicked">
+            <summary>
+            日期选择事件
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Core.Controls.DaysPicker.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.DaysPicker.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.DaysPicker.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeForms.Core.Controls.DayPickedEventArgs">
+            <summary>
+            日期选择事件参数
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Core.Controls.MonthPicker.MonthPicked">
+            <summary>
+            月份选择事件
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Core.Controls.MonthPicker.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.MonthPicker.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.MonthPicker.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeForms.Core.Controls.MonthPickedEventArgs">
+            <summary>
+            月份选择事件参数
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Core.Controls.YearPicker.YearPicked">
+            <summary>
+            年份选择事件
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Core.Controls.YearPicker.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.YearPicker.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.YearPicker.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeForms.Core.Controls.YearPickedEventArgs">
+            <summary>
+            年份选择事件参数
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Core.Controls.ControlListBox.Items">
+            <summary>
+            列表项
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.ControlListBox.RefreshChildControlsSize">
+            <summary>
+            刷新子控件的尺寸
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Core.Controls.ControlListBox.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.ControlListBox.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.ControlListBox.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.ITabBox`1.AddPage(System.String,System.Windows.Forms.Control,System.Drawing.Image)">
+            <summary>
+            添加新的页面
+            </summary>
+            <param name="title">标题</param>
+            <param name="content">内容控件</param>
+            <param name="icon">图标</param>
+        </member>
+        <member name="E:ApeFree.ApeForms.Core.Controls.SlideTabControl.PageChanged">
+            <summary>
+            页面切换时触发此事件
+            </summary>
+        </member>
+        <member name="E:ApeFree.ApeForms.Core.Controls.SlideTabControl.PageRemoved">
+            <summary>
+            页面移除时触发此事件
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Core.Controls.SlideTabControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.SlideTabControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.SlideTabControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Core.Controls.NavigationTitleBar.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.NavigationTitleBar.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Controls.NavigationTitleBar.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeForms.Core.Extensions.ToolStripProperties">
+            <summary>
+            属性字典集合
+            key:item.Name
+            value:item properties
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeForms.Core.Extensions.ToolItemProperties">
+            <summary>
+            ToolItem属性信息
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeForms.Core.Extensions.PropertiesFliter">
+            <summary>
+            属性过滤器
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeForms.Core.Gdi.GdiPalette">
+            <summary>
+            WinForm Gdi+图形画板
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Gdi.GdiPalette.UpdateCanvas">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Gdi.GdiPalette.DrawEllipseHandler(ApeFree.ApeForms.Core.Gdi.GdiStyle,ApeFree.Cake2D.Shapes.EllipseShape)">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Gdi.GdiPalette.DrawRectangleHandler(ApeFree.ApeForms.Core.Gdi.GdiStyle,ApeFree.Cake2D.Shapes.RectangleShape)">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Gdi.GdiPalette.DrawCircleHandler(ApeFree.ApeForms.Core.Gdi.GdiStyle,ApeFree.Cake2D.Shapes.CircleShape)">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Gdi.GdiPalette.DrawVectorHandler(ApeFree.ApeForms.Core.Gdi.GdiStyle,ApeFree.Cake2D.Shapes.VectorSahpe)">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Gdi.GdiPalette.DrawLineHandler(ApeFree.ApeForms.Core.Gdi.GdiStyle,ApeFree.Cake2D.Shapes.LineShape)">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Gdi.GdiPalette.DrawPolygonHandler(ApeFree.ApeForms.Core.Gdi.GdiStyle,ApeFree.Cake2D.Shapes.PolygonShape)">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Gdi.GdiPalette.DrawTextHandler(ApeFree.ApeForms.Core.Gdi.GdiStyle,ApeFree.Cake2D.Shapes.TextShape)">
+            <inheritdoc/>
+        </member>
+        <member name="T:ApeFree.ApeForms.Core.Gdi.GdiStyle">
+            <summary>
+            GDI+图形样式
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Core.Gdi.GdiStyle.Pen">
+            <summary>
+            画笔
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Core.Gdi.GdiStyle.Brush">
+            <summary>
+            画刷
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Core.Gdi.GdiStyle.Font">
+            <summary>
+            字体
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Core.Gdi.GdiStyle.StringFormat">
+            <summary>
+            文本格式
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Gdi.GdiStyle.Clear">
+            <inheritdoc/>
+        </member>
+        <member name="T:ApeFree.ApeForms.Core.Properties.Resources">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Core.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Core.Properties.Resources.Culture">
+            <summary>
+              重写当前线程的 CurrentUICulture 属性，对
+              使用此强类型资源类的所有资源查找执行重写。
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Core.Properties.Resources.NavigationTitleBarLeftButtonImage">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Core.Properties.Resources.NavigationTitleBarRightButtonImage">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Utils.EventableList`1.Add(`0)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Utils.EventableList`1.AddRange(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="collection"></param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Utils.EventableList`1.Clear">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Utils.EventableList`1.Remove(`0)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Utils.EventableList`1.RemoveAt(System.Int32)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="index"></param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Utils.EventableList`1.Insert(System.Int32,`0)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="index"></param>
+            <param name="item"></param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Utils.EventableList`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="index"></param>
+            <param name="collection"></param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Utils.EventableList`1.IndexOf(`0)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Utils.EventableList`1.Contains(`0)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Utils.EventableList`1.CopyTo(`0[],System.Int32)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="array"></param>
+            <param name="arrayIndex"></param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Utils.EventableList`1.GetEnumerator">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.ApeForms.Core.Utils.EventableList`1.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ApeFree.ApeForms.Core.Utils.ListItemsChangedEventArgs`1">
+            <summary>
+            列表项发生变更时的事件参数
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:ApeFree.ApeForms.Core.Utils.ListItemsChangedEventArgs`1.Item">
+            <summary>
+            变更项
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Core.Utils.ListItemsChangedEventArgs`1.Position">
+            <summary>
+            变更的位置
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeForms.Core.Utils.SharedTimedTaskManager.TimedTaskItem">
+            <summary>
+            定时任务项
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeForms.Core.Utils.SharedTimedTaskManager.TimedTaskTag">
+            <summary>
+            定时任务标签
+            </summary>
+        </member>
+        <member name="M:System.Drawing.BitmapExtension.ToPureColor(System.Drawing.Bitmap,System.Drawing.Color,System.Boolean)">
+            <summary>
+            转换为纯色图像
+            </summary>
+            <param name="bitmap">位图</param>
+            <param name="color">目标颜色</param>
+            <param name="reserveAlpha">是否保留透明通道</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Drawing.BitmapExtension.ToPureColor(System.Drawing.Bitmap,System.Drawing.Color[],System.Boolean)">
+            <summary>
+            转换为多张纯色图像
+            </summary>
+            <param name="bitmap"></param>
+            <param name="colors"></param>
+            <param name="reserveAlpha"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Drawing.ColorExtensions.Luminance(System.Drawing.Color,System.Single)">
+            <summary>
+            按比例调节亮度
+            </summary>
+            <param name="color">颜色</param>
+            <param name="ratio">比例</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Windows.Forms.ControlBorderExtensions.RevocationEventListen(System.Windows.Forms.Control)">
+            <summary>
+            撤销事件监听
+            </summary>
+            <param name="control"></param>
+        </member>
+        <member name="M:System.Windows.Forms.ControlExtensions.ModifyInUI(System.Windows.Forms.Control,System.Action)">
+            <summary>
+            在UI线程中修改界面
+            </summary>
+            <param name="control"></param>
+            <param name="action"></param>
+        </member>
+        <member name="M:System.Windows.Forms.ControlExtensions.GetChildControls(System.Windows.Forms.Control,System.Boolean)">
+            <summary>
+            获取指定控件下的所有子控件
+            </summary>
+            <param name="control"></param>
+            <param name="isRecursive"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Windows.Forms.ControlExtensions.TraverseChildControls(System.Windows.Forms.Control,System.Action{System.Windows.Forms.Control},System.Boolean)">
+            <summary>
+            遍历子控件，传入委托代码操作每一个控件
+            </summary>
+            <param name="control"></param>
+            <param name="handler"></param>
+            <param name="isRecursive"></param>
+        </member>
+        <member name="F:System.Windows.Forms.ControlExtensions.CurrentBlinkingControlList">
+            <summary>
+            当前正在闪烁的控件列表（控件背景色闪烁）
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.ControlExtensions.Blink(System.Windows.Forms.Control,System.Drawing.Color,System.UInt16,System.Action)">
+            <summary>
+            控件背景色闪烁
+            </summary>
+            <param name="control"></param>
+            <param name="color"></param>
+            <param name="frequency"></param>
+            <param name="completedCallback"></param>
+        </member>
+        <member name="M:System.Windows.Forms.ControlExtensions.ShareClickEvent(System.Windows.Forms.Control,System.Type[])">
+            <summary>
+            向子控件共享单击事件委托
+            </summary>
+            <param name="control"></param>
+            <param name="types"></param>
+        </member>
+        <member name="M:System.Windows.Forms.ControlExtensions.ShareEventDelegate(System.Windows.Forms.Control,System.String,System.Type[])">
+            <summary>
+            向子控件共享指定事件名的事件委托
+            </summary>
+            <param name="control">容器控件</param>
+            <param name="eventName">事件名称</param>
+            <param name="types">只允许类型数组内包含的类型共享事件委托</param>
+        </member>
+        <member name="M:System.Windows.Forms.ControlExtensions.CallControlEvent(System.Windows.Forms.Control,System.String,System.EventArgs)">
+            <summary>
+            反射调用事件
+            </summary>
+            <param name="control"></param>
+            <param name="eventName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Windows.Forms.ControlExtensions.AddDelegateToControlEventHandlerList(System.Windows.Forms.Control,System.String,System.Delegate)">
+            <summary>
+            向控件事件列表中添加委托
+            </summary>
+            <param name="control"></param>
+            <param name="eventName"></param>
+            <param name="handler"></param>
+        </member>
+        <member name="M:System.Windows.Forms.ControlExtensions.FindDelegateFromControl(System.Windows.Forms.Control,System.String)">
+            <summary>
+            从控件中获取指定名称的事件委托
+            </summary>
+            <param name="control"></param>
+            <param name="eventName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Windows.Forms.ControlExtensions.FindParentContainerByType``1(System.Windows.Forms.Control)">
+            <summary>
+            从控件的多级父容器中寻找指定类型的容器控件
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="control"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Windows.Forms.ControlExtensions.GetTextSize(System.Windows.Forms.Control)">
+            <summary>
+            获取控件中文本的尺寸
+            </summary>
+            <param name="control"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Windows.Forms.ControlSmoothMovementExtensions.SizeGradualChange``1(``0,System.Drawing.Size,System.Byte,System.Action{``0})">
+            <summary>
+            尺寸渐进改变
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="control"></param>
+            <param name="targetSize"></param>
+            <param name="rate"></param>
+            <param name="finishCallback"></param>
+        </member>
+        <member name="M:System.Windows.Forms.ControlSmoothMovementExtensions.LocationGradualChange``1(``0,System.Drawing.Point,System.Byte,System.Action{``0})">
+            <summary>
+            位置渐进改变
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="control"></param>
+            <param name="targetPoint"></param>
+            <param name="rate"></param>
+            <param name="finishCallback"></param>
+        </member>
+        <member name="M:System.Windows.Forms.ControlSmoothMovementExtensions.VerticalScrollGradualChange``1(``0,System.Windows.Forms.Control,System.Int32,System.Byte,System.Action{``0})">
+            <summary>
+            垂直滚动条渐进滑动
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="control"></param>
+            <param name="childControl"></param>
+            <param name="offset"></param>
+            <param name="rate"></param>
+            <param name="finishCallback"></param>
+        </member>
+        <member name="M:System.Windows.Forms.ControlSmoothMovementExtensions.OpacityGradualChange``1(``0,System.Double,System.Byte,System.Action{``0})">
+            <summary>
+            透明度渐进改变
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="form"></param>
+            <param name="targetOpacity"></param>
+            <param name="rate"></param>
+            <param name="finishCallback"></param>
+        </member>
+        <member name="M:System.Windows.Forms.ControlUIExtensions.Fillet(System.Windows.Forms.Control,System.Int32)">
+            <summary>
+            将控件四角设置为圆角
+            若应用在尺寸会变化的控件上(如窗体)，应重写OnResize方法或添加Resize事件，使其每次尺寸变化都能重新绘制界面
+            </summary>
+            <param name="control"></param>
+            <param name="diameter">圆角直径</param>
+        </member>
+        <member name="M:System.Windows.Forms.ControlUIExtensions.Fillet(System.Windows.Forms.Control,System.Double)">
+            <summary>
+            将控件四角设置为圆角
+            若应用在尺寸会变化的控件上(如窗体)，应重写OnResize方法或添加Resize事件，使其每次尺寸变化都能重新绘制界面
+            圆角的默认直径为:长宽中较小值的1/4
+            </summary>
+            <param name="control"></param>
+            <param name="rate"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:System.Windows.Forms.DataGridViewExtensions.ToTable(System.Windows.Forms.DataGridView)" -->
+        <member name="M:System.Windows.Forms.DataGridViewExtensions.ToExcelString(System.Windows.Forms.DataGridView)">
+            <summary>
+            将表格内容转换为符合Excel表格格式的字符串
+            </summary>
+            <param name="dgv"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Windows.Forms.DataGridViewExtensions.ShowLineNumbers(System.Windows.Forms.DataGridView)">
+            <summary>
+            显示行号
+            </summary>
+            <param name="dgv"></param>
+        </member>
+        <member name="M:System.Windows.Forms.DataGridViewExtensions.HideLineNumbers(System.Windows.Forms.DataGridView)">
+            <summary>
+            隐藏行号
+            </summary>
+            <param name="dgv"></param>
+        </member>
+        <member name="M:System.Windows.Forms.DataGridViewExtensions.GetTable(System.Windows.Forms.DataGridView)">
+            <summary>
+            获取表格所有数据
+            </summary>
+            <param name="dataGridView"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Windows.Forms.FormExtension.GraduallyShow``1(``0,System.Double,System.Double,System.Action{``0})">
+            <summary>
+            窗体透明度渐进显示
+            </summary>
+            <param name="form"></param>
+            <param name="stepSize">步长</param>
+            <param name="targetOpacityValue">目标值</param>
+            <param name="finishCallback">完成回调</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Windows.Forms.FormExtension.GraduallyClose``1(``0,System.Double,System.Action{``0})">
+            <summary>
+            窗体透明度渐进关闭
+            </summary>
+            <param name="form"></param>
+            <param name="stepSize">步长</param>
+            <param name="finishCallback"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Windows.Forms.FormExtension.Shake(System.Windows.Forms.Form,System.Int32,System.Int32)">
+            <summary>
+            窗口震动
+            </summary>
+            <param name="form"></param>
+            <param name="shakeTimes">震动次数</param>
+            <param name="amplitude">震动幅度(像素)</param>
+        </member>
+        <member name="M:System.Windows.Forms.ToolStripExtensions.GetProperties(System.Windows.Forms.ToolStrip)">
+            <summary>
+            获取ToolStrip的属性表
+            </summary>
+            <param name="menu"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Windows.Forms.ToolStripExtensions.SetProperties(System.Windows.Forms.ToolStrip,ApeFree.ApeForms.Core.Extensions.ToolStripProperties,ApeFree.ApeForms.Core.Extensions.PropertiesFliter)">
+            <summary>
+            设置ToolStrip的主要属性
+            </summary>
+            <param name="menu"></param>
+            <param name="msp"></param>
+        </member>
+        <member name="M:System.Windows.Forms.ToolStripExtensions.GetProperties(System.Windows.Forms.ToolStripItem,ApeFree.ApeForms.Core.Extensions.ToolStripProperties)">
+            <summary>
+            获取MenuStrip属性的字典
+            </summary>
+            <param name="item">菜单下的子菜单项</param>
+            <param name="msp">菜单的属性</param>
+        </member>
+        <member name="M:System.Windows.Forms.ToolStripExtensions.SetProperties(System.Windows.Forms.ToolStripItem,ApeFree.ApeForms.Core.Extensions.ToolStripProperties,ApeFree.ApeForms.Core.Extensions.PropertiesFliter)">
+            <summary>
+            菜单的多选框和选中状态
+            </summary>
+            <param name="item">菜单下的子菜单项</param>
+            <param name="msp">菜单的属性</param>
+        </member>
+        <member name="M:System.Windows.Forms.User32Extensions.SetWindowPos(System.IntPtr,System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32,System.Windows.Forms.SetWindowPosFlags)">
+            <summary>
+            设置窗口Z轴位置
+            参考资料：https://learn.microsoft.com/zh-cn/windows/win32/api/winuser/nf-winuser-setwindowpos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:System.Windows.Forms.User32Extensions.GetForegroundWindow">
+            <summary> 
+            得到当前活动的窗口 
+            </summary> 
+            <returns></returns> 
+        </member>
+        <member name="M:System.Windows.Forms.User32Extensions.ShowWindow(System.Windows.Forms.Form,System.Windows.Forms.ShowWindowMode)">
+            <summary>
+            调用user32.dll操作窗体以完成更复杂的功能
+            </summary>
+            <param name="form"></param>
+            <param name="mode">操作模式</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Windows.Forms.User32Extensions.ShowWindow(System.Windows.Forms.Form,System.Int32)">
+            <summary>
+            显示窗体
+            </summary>
+            <param name="form"></param>
+            <param name="mode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Windows.Forms.User32Extensions.DropShadow(System.Windows.Forms.Form)">
+            <summary>
+            投射阴影
+            </summary>
+            <param name="form"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Windows.Forms.User32Extensions.SetWindowToTopWithoutFocus(System.Windows.Forms.Form)">
+            <summary>
+            将窗口设置为顶部且不抢占焦点
+            </summary>
+            <param name="form"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.Windows.Forms.ShowWindowMode">
+            <summary>
+            显示窗体的操作模式
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ShowWindowMode.Hide">
+            <summary>
+            隐藏窗口并激活其他窗口
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ShowWindowMode.ShowNormal">
+            <summary>
+            激活并显示一个窗口。如果窗口被最小化或最大化，系统将其恢复到原来的尺寸和大小。应用程序在第一次显示窗口的时候应该指定此标志
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ShowWindowMode.ShowMinimized">
+            <summary>
+            激活窗口并将其最小化
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ShowWindowMode.ShowMaximized">
+            <summary>
+            激活窗口并将其最大化
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ShowWindowMode.ShowNoactivate">
+            <summary>
+            以窗口最近一次的大小和状态显示窗口。此值与ShowNormal相似，只是窗口没有被激活
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ShowWindowMode.Show">
+            <summary>
+            在窗口原来的位置以原来的尺寸激活和显示窗口
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ShowWindowMode.Minimize">
+            <summary>
+            最小化指定的窗口并且激活在z序中的下一个顶层窗口
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ShowWindowMode.ShowMinnoactive">
+            <summary>
+            最小化的方式显示窗口，此值与ShowMinimized相似，只是窗口没有被激活
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ShowWindowMode.Showna">
+            <summary>
+            以窗口原来的状态显示窗口。此值与Show相似，只是窗口没有被激活
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ShowWindowMode.Restore">
+            <summary>
+            激活并显示窗口。如果窗口最小化或最大化，则系统将窗口恢复到原来的尺寸和位置。在恢复最小化窗口时，应用程序应该指定这个标志
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ShowWindowMode.ShowDefault">
+            <summary>
+            依据在startupinfo结构中指定的flag标志设定显示状态，startupinfo 结构是由启动应用程序的程序传递给createprocess函数的
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ShowWindowMode.ForceMinimize">
+            <summary>
+            最小化窗口，即使拥有窗口的线程被挂起也会最小化。在从其他线程最小化窗口时才使用这个参数
+            </summary>
+        </member>
+        <member name="T:System.Windows.Forms.SetWindowPosFlags">
+            <summary>
+            SetWindowPos标志位
+            参数说明：https://learn.microsoft.com/zh-cn/windows/win32/api/winuser/nf-winuser-setwindowpos#parameters
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.SetWindowPosFlags.AsyncWindowPos">
+            <summary>
+            如果调用线程和拥有窗口的线程附加到不同的输入队列，系统会将请求发布到拥有该窗口的线程。 这可以防止调用线程阻止其执行，而其他线程处理请求。
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.SetWindowPosFlags.Defererase">
+            <summary>
+            阻止生成 wm_syncpaint 消息。
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.SetWindowPosFlags.DrawFrame">
+            <summary>
+            绘制在窗口的类说明中定义的框架 () 窗口周围。
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.SetWindowPosFlags.FrameChanged">
+            <summary>
+            使用 setwindowlong 函数应用设置的新框架样式。 将 wm_nccalcsize 消息发送到窗口，即使窗口的大小未更改也是如此。 如果未指定此标志，则仅当窗口的大小发生更改时， 才会发送wm_nccalcsize 。
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.SetWindowPosFlags.HideWindow">
+            <summary>
+            隐藏窗口。
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.SetWindowPosFlags.NoActivate">
+            <summary>
+            不激活窗口。 如果未设置此标志，则会激活窗口，并根据 hwndinsertafter 参数) 的设置 (将窗口移到最顶部或最顶层组的顶部。
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.SetWindowPosFlags.NoCopyBits">
+            <summary>
+            丢弃工作区的整个内容。 如果未指定此标志，则会在调整或重新定位窗口后保存并复制回工作区的有效内容。
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.SetWindowPosFlags.NoMove">
+            <summary>
+            保留当前位置 (忽略 x 和 y 参数) 。
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.SetWindowPosFlags.NoOwnerZOrder">
+            <summary>
+            不更改 z 顺序中的所有者窗口位置。
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.SetWindowPosFlags.NoRedraw">
+            <summary>
+            不重绘更改。 如果设置了此标志，则不执行任何形式的重绘。 这适用于工作区、非工作区 (，包括标题栏和滚动条) ，以及由于移动窗口而发现的父窗口的任何部分。 设置此标志后，应用程序必须显式失效或重新绘制需要重绘的窗口和父窗口的任何部分。
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.SetWindowPosFlags.NoReposition">
+            <summary>
+            与 noownerzorder 标志相同。
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.SetWindowPosFlags.NoSendChanging">
+            <summary>
+            阻止窗口接收 wm_windowposchanging 消息。
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.SetWindowPosFlags.NoSize">
+            <summary>
+            保留当前大小 (忽略 cx 和 cy 参数) 。
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.SetWindowPosFlags.NoZOrder">
+            <summary>
+            保留当前 z 顺序 (忽略 hwndinsertafter 参数) 。
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.SetWindowPosFlags.ShowWindow">
+            <summary>
+            显示“接收端口跟踪选项” 窗口。
+            </summary>
+        </member>
+    </members>
+</doc>

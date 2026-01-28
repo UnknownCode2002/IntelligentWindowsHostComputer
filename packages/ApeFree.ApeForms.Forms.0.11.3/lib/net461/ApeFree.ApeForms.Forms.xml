@@ -1,0 +1,417 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApeFree.ApeForms.Forms</name>
+    </assembly>
+    <members>
+        <member name="M:ApeFree.ApeForms.Forms.Dialogs.ApeFormsDialog`1.DismissHandler">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Forms.Dialogs.ApeFormsDialog`1.ShowHandler">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Forms.Dialogs.ApeFormsDialog`1.AddOption(ApeFree.ApeDialogs.Settings.DialogOption,System.Action{ApeFree.ApeDialogs.Core.IDialog,ApeFree.ApeForms.Forms.Dialogs.OptionButton})">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="option"><inheritdoc/></param>
+            <param name="onClick"><inheritdoc/></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.ApeForms.Forms.Dialogs.ApeFormsDialog`1.ClearOptions">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Forms.Dialogs.ApeFormsDialog`1.PrecheckFailsCallback(ApeFree.ApeDialogs.Settings.FormatCheckResult)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Forms.Dialogs.DataEntryView.TitleFont">
+            <summary>
+            字段标题字体
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Forms.Dialogs.DataEntryView.ValueFont">
+            <summary>
+            字段数据字体
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Forms.Dialogs.DialogForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Forms.Dialogs.DialogForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Forms.Dialogs.DialogForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Dialogs.OptionButton.ClickCallback">
+            <summary>
+            单击事件回调
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Dialogs.OptionButton.Option">
+            <summary>
+            选项信息
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.Notification.SpacingDistance">
+            <summary>
+            通知栏之间的间隔距离
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.Notification.DefaultFormsSize">
+            <summary>
+            通知栏默认大小
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.Notification.Orientation">
+            <summary>
+            通知排列方向
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.Notification.PrimeDirection">
+            <summary>
+            通知起始方向
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.Notification.UnhoveringOpacity">
+            <summary>
+            无鼠标悬停时的不透明度
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.Notification.Builder">
+            <summary>
+            通知构造器
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Forms.Notifications.Notification.Notify(ApeFree.ApeForms.Forms.Notifications.NotificationSettings)">
+            <summary>
+            发布通知
+            </summary>
+            <param name="settings"></param>
+            <returns></returns>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.NotificationBox.DisappearInterval">
+            <summary>
+            自动消失时间间隔
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.NotificationBox.MainView">
+            <summary>
+            内容控件
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.NotificationBox.SpareView">
+            <summary>
+            备用控件
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.NotificationBox.ReminderColor">
+            <summary>
+            提醒色
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.NotificationBox.CreateParams">
+            <summary>
+            让窗体不显示在alt+Tab视图窗体中
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Forms.Notifications.NotificationBox.Show">
+            <summary>
+            显示窗体
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Forms.Notifications.NotificationBox.Disappear">
+            <summary>
+            使窗体消失
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Forms.Notifications.NotificationBox.AddOption(ApeFree.ApeForms.Forms.Notifications.NotificationOption)">
+            <summary>
+            添加选项
+            </summary>
+            <param name="option">选项设置</param>
+            <returns></returns>
+        </member>
+        <member name="F:ApeFree.ApeForms.Forms.Notifications.NotificationBox.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Forms.Notifications.NotificationBox.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Forms.Notifications.NotificationBox.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeForms.Forms.Notifications.NotifyOrientation">
+            <summary>
+            通知排列方向
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Forms.Notifications.NotifyOrientation.Queue">
+            <summary>
+            队列模式
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Forms.Notifications.NotifyOrientation.Stack">
+            <summary>
+            栈模式
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeForms.Forms.Notifications.NotifyPrimeDirection">
+            <summary>
+            通知起始方向
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Forms.Notifications.NotifyPrimeDirection.Top">
+            <summary>
+            自顶部开始
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Forms.Notifications.NotifyPrimeDirection.Bottom">
+            <summary>
+            自底部开始
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeForms.Forms.Notifications.NotificationOption">
+            <summary>
+            Notification选项信息
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.NotificationOption.Text">
+            <summary>
+            选项文本
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.NotificationOption.BackColor">
+            <summary>
+            选项背景色
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.NotificationOption.ForeColor">
+            <summary>
+            选项前景色
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.NotificationOption.OptionClickHandler">
+            <summary>
+            选项被选中时的回调过程 
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeForms.Forms.Notifications.OptionClickEventArgs">
+            <summary>
+            选项单击事件
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeForms.Forms.Notifications.NotificationSettings">
+            <summary>
+            通知设置
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.NotificationSettings.Title">
+            <summary>
+            通知标题
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.NotificationSettings.ReminderColor">
+            <summary>
+            提示色
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.NotificationSettings.MainView">
+            <summary>
+            主视图
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.NotificationSettings.SpareView">
+            <summary>
+            副视图
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.NotificationSettings.RetentionTime">
+            <summary>
+            通知栏显示驻留的时长，单位毫秒
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.NotificationSettings.Options">
+            <summary>
+            选项列表
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Forms.Notifications.NotificationSettings.#ctor(System.Windows.Forms.Control,System.Windows.Forms.Control)">
+            <summary>
+            构造通知设置对象
+            </summary>
+            <param name="mainView"></param>
+            <param name="spareView"></param>
+        </member>
+        <member name="T:ApeFree.ApeForms.Forms.Notifications.TextNotificationSettings">
+            <summary>
+            文本通知设置
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeForms.Forms.Notifications.ImageTextNotificationSettings">
+            <summary>
+            图片文本通知设置
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.ImageTextNotificationSettings.Message">
+            <summary>
+            消息内容
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.ImageTextNotificationSettings.Image">
+            <summary>
+            图片
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.ImageTextNotificationSettings.ImageSizeMode">
+            <summary>
+            图像定位方式
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Forms.Notifications.Toast.Show(System.String,System.Int32,System.Windows.Forms.Control,System.Windows.Forms.ToastMode)">
+            <summary>
+            显示消息提示
+            </summary>
+            <param name="content">消息内容</param>
+            <param name="delay">消息提示时长</param>
+            <param name="context">当前处于焦点的控件</param>
+        </member>
+        <member name="P:ApeFree.ApeForms.Forms.Notifications.ToastForm.CreateParams">
+            <summary>
+            让窗体不显示在alt+Tab视图窗体中
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeForms.Forms.Notifications.ToastForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Forms.Notifications.ToastForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Forms.Notifications.ToastForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.ApeFormsDialogProvider.CreateDateTimeDialog(ApeFree.ApeDialogs.Settings.DateTimeDialogSettings,System.Windows.Forms.Control)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="settings"><inheritdoc/></param>
+            <param name="context"><inheritdoc/></param>
+            <returns><inheritdoc/></returns>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.ApeFormsDialogProvider.CreateInputDialog(ApeFree.ApeDialogs.Settings.InputDialogSettings,System.Windows.Forms.Control)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="settings"></param>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.ApeFormsDialogProvider.CreateMessageDialog(ApeFree.ApeDialogs.Settings.MessageDialogSettings,System.Windows.Forms.Control)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="settings"><inheritdoc/></param>
+            <param name="context"><inheritdoc/></param>
+            <returns><inheritdoc/></returns>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.ApeFormsDialogProvider.CreatePasswordDialog(ApeFree.ApeDialogs.Settings.PasswordDialogSettings,System.Windows.Forms.Control)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="settings"><inheritdoc/></param>
+            <param name="context"><inheritdoc/></param>
+            <returns><inheritdoc/></returns>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.ApeFormsDialogProvider.CreatePromptDialog(ApeFree.ApeDialogs.Settings.PromptDialogSettings,System.Windows.Forms.Control)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="settings"><inheritdoc/></param>
+            <param name="context"><inheritdoc/></param>
+            <returns><inheritdoc/></returns>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.ApeFormsDialogProvider.CreateSelectionDialog``1(ApeFree.ApeDialogs.Settings.SelectionDialogSettings{``0},System.Collections.Generic.IEnumerable{``0},``0,System.Windows.Forms.Control)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <typeparam name="T"><inheritdoc/></typeparam>
+            <param name="settings"><inheritdoc/></param>
+            <param name="collection"><inheritdoc/></param>
+            <param name="defaultSelectedItem"><inheritdoc/></param>
+            <param name="context"><inheritdoc/></param>
+            <returns><inheritdoc/></returns>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.ApeFormsDialogProvider.CreateMultipleSelectionDialog``1(ApeFree.ApeDialogs.Settings.MultipleSelectionDialogSettings{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Windows.Forms.Control)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <typeparam name="T"><inheritdoc/></typeparam>
+            <param name="settings"><inheritdoc/></param>
+            <param name="collection"><inheritdoc/></param>
+            <param name="defaultSelectedItems"><inheritdoc/></param>
+            <param name="context"><inheritdoc/></param>
+            <returns><inheritdoc/></returns>
+        </member>
+        <member name="M:System.Windows.Forms.ToastExtensions.ShowToast(System.Windows.Forms.Control,System.String,System.Windows.Forms.ToastMode,System.Int32)">
+            <summary>
+            弹出显示Toast消息框
+            </summary>
+            <param name="control"></param>
+            <param name="content">内容</param>
+            <param name="mode">显示模式</param>
+            <param name="delay">延时(毫秒)</param>
+        </member>
+        <member name="T:System.Windows.Forms.ToastMode">
+            <summary>
+            Toast显示模式
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ToastMode.Queue">
+            <summary>
+            队列模式：消息加入队列，顺序显示
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ToastMode.Preemption">
+            <summary>
+            抢占模式：清除队列，下一次弹出时显示
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ToastMode.Reuse">
+            <summary>
+            复用模式：清除队列，使用当前正在显示的Toast
+            </summary>
+        </member>
+    </members>
+</doc>

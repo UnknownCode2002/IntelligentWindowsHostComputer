@@ -1,0 +1,397 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApeFree.Cake2D</name>
+    </assembly>
+    <members>
+        <member name="T:ApeFree.Cake2D.Layer`1">
+            <summary>
+            图层
+            </summary>
+        </member>
+        <member name="P:ApeFree.Cake2D.Layer`1.Style">
+            <summary>
+            风格样式
+            </summary>
+        </member>
+        <member name="P:ApeFree.Cake2D.Layer`1.Shape">
+            <summary>
+            图形
+            </summary>
+        </member>
+        <member name="P:ApeFree.Cake2D.Layer`1.Visible">
+            <summary>
+            可见性，画板绘制时是否绘制当前图层
+            </summary>
+        </member>
+        <member name="P:ApeFree.Cake2D.Layer`1.Selectable">
+            <summary>
+            可选性，图层是否可以被选中
+            </summary>
+        </member>
+        <member name="P:ApeFree.Cake2D.Layer`1.Parent">
+            <summary>
+            画板
+            </summary>
+        </member>
+        <member name="P:ApeFree.Cake2D.Layer`1.Focusable">
+            <summary>
+            可聚焦
+            </summary>
+        </member>
+        <member name="P:ApeFree.Cake2D.Layer`1.Tag">
+            <summary>
+            附带数据
+            </summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Layer`1.#ctor(ApeFree.Cake2D.Palette{`0})">
+            <summary>
+            构造图层
+            </summary>
+            <param name="parent">所属画板</param>
+        </member>
+        <member name="M:ApeFree.Cake2D.Layer`1.#ctor(ApeFree.Cake2D.Palette{`0},`0,ApeFree.Cake2D.Shapes.IShape)">
+            <summary>
+            构造图层
+            </summary>
+            <param name="parent">所属画板</param>
+            <param name="style">样式风格</param>
+            <param name="shape">图形</param>
+        </member>
+        <member name="P:ApeFree.Cake2D.Layer`2.Shape">
+            <summary>
+            图形
+            </summary>
+        </member>
+        <member name="T:ApeFree.Cake2D.Math2D">
+            <summary>
+            绘图数学库
+            </summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Math2D.CalculatePointOnCircle(System.Drawing.PointF,System.Single,System.Single)">
+            <summary>
+            计算圆上点的坐标
+            </summary>
+            <param name="centrePoint">圆心</param>
+            <param name="radius">半径</param>
+            <param name="angle">角度</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.Cake2D.Math2D.CalculateLengthFromTwoPoints(System.Drawing.PointF,System.Drawing.PointF)">
+            <summary>
+            通过两点坐标计算距离
+            </summary>
+            <param name="p1">坐标1</param>
+            <param name="p2">坐标2</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.Cake2D.Math2D.CalculateAngleFromTwoPoints(System.Drawing.PointF,System.Drawing.PointF)">
+            <summary>
+            计算两点之间的角度
+            </summary>
+            <param name="p1"></param>
+            <param name="p2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.Cake2D.Math2D.PointAround(System.Drawing.PointF,System.Drawing.PointF,System.Single)">
+            <summary>
+            点位环绕
+            </summary>
+            <param name="centrePoint">中心点</param>
+            <param name="satellitePoint">卫星点</param>
+            <param name="rotationAngle">旋转半径</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.Cake2D.Math2D.LineScale(System.Drawing.PointF,System.Drawing.PointF,System.Single)">
+            <summary>
+            线段伸缩
+            在固定点和活动点的直线上，计算出与固定点指定距离的新点位
+            </summary>
+            <param name="fixedPoint">固定点</param>
+            <param name="activePoint">移动点</param>
+            <param name="distance">距离</param>
+            <returns></returns>
+        </member>
+        <member name="T:ApeFree.Cake2D.Palette`1">
+            <summary>
+            图形面板基类
+            </summary>
+            <typeparam name="TStyle">绘制风格类型</typeparam>
+        </member>
+        <member name="P:ApeFree.Cake2D.Palette`1.Layers">
+            <summary>图层</summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Palette`1.#ctor">
+            <summary>构造画板</summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Palette`1.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.Cake2D.Palette`1.UpdateCanvas">
+            <summary>更新画布</summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Palette`1.DrawPolygon(`0,ApeFree.Cake2D.Shapes.PolygonShape)">
+            <summary>绘制多边形</summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Palette`1.DrawLine(`0,ApeFree.Cake2D.Shapes.LineShape)">
+            <summary>绘制线</summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Palette`1.DrawVector(`0,ApeFree.Cake2D.Shapes.VectorSahpe)">
+            <summary>绘制向量</summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Palette`1.DrawEllipse(`0,ApeFree.Cake2D.Shapes.EllipseShape)">
+            <summary>绘制椭圆</summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Palette`1.DrawRectangle(`0,ApeFree.Cake2D.Shapes.RectangleShape)">
+            <summary>绘制矩形</summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Palette`1.DrawCircle(`0,ApeFree.Cake2D.Shapes.CircleShape)">
+            <summary>绘制圆形</summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Palette`1.DrawText(`0,ApeFree.Cake2D.Shapes.TextShape)">
+            <summary>绘制文本</summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Palette`1.DrawEllipseHandler(`0,ApeFree.Cake2D.Shapes.EllipseShape)">
+            <summary>绘制椭圆的实现过程</summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Palette`1.DrawLineHandler(`0,ApeFree.Cake2D.Shapes.LineShape)">
+            <summary>绘制线的实现过程</summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Palette`1.DrawVectorHandler(`0,ApeFree.Cake2D.Shapes.VectorSahpe)">
+            <summary>绘制向量的实现过程</summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Palette`1.DrawRectangleHandler(`0,ApeFree.Cake2D.Shapes.RectangleShape)">
+            <summary>绘制矩形的实现过程</summary> 
+        </member>
+        <member name="M:ApeFree.Cake2D.Palette`1.DrawCircleHandler(`0,ApeFree.Cake2D.Shapes.CircleShape)">
+            <summary>绘制圆形的实现过程</summary> 
+        </member>
+        <member name="M:ApeFree.Cake2D.Palette`1.DrawPolygonHandler(`0,ApeFree.Cake2D.Shapes.PolygonShape)">
+            <summary>绘制多边形的实现过程</summary> 
+        </member>
+        <member name="M:ApeFree.Cake2D.Palette`1.DrawTextHandler(`0,ApeFree.Cake2D.Shapes.TextShape)">
+            <summary>绘制文本的实现过程</summary> 
+        </member>
+        <member name="M:ApeFree.Cake2D.Palette`1.SelectTopLayerByCastingPoint(System.Drawing.PointF)">
+            <summary>
+            通过投射点查找顶部图层
+            </summary>
+            <param name="point">投射点</param>
+            <returns></returns>
+        </member>
+        <member name="T:ApeFree.Cake2D.Palette`2">
+            <summary>
+            图形面板基类
+            </summary>
+            <typeparam name="TCanvas">画布类型</typeparam>
+            <typeparam name="TStyle">绘制风格类型</typeparam>
+        </member>
+        <member name="P:ApeFree.Cake2D.Palette`2.Canvas">
+            <summary>
+            画布
+            </summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Palette`2.#ctor">
+            <summary>
+            构造画板
+            </summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Palette`2.#ctor(`0)">
+            <summary>
+            构造画板
+            </summary>
+            <param name="canvas">画布对象</param>
+        </member>
+        <member name="T:ApeFree.Cake2D.Shapes.ComplexShape">
+            <summary>
+            复合图形
+            </summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.ComplexShape.Rotate(System.Drawing.PointF,System.Single)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="centralPoint"></param>
+            <param name="angle"></param>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.ComplexShape.Scale(System.Single)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="scaling"></param>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.ComplexShape.Offset(System.Single,System.Single)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="distanceX"></param>
+            <param name="distanceY"></param>
+        </member>
+        <member name="T:ApeFree.Cake2D.Shapes.IShape">
+            <summary>图形接口</summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.IShape.Scale(System.Single)">
+            <summary>缩放</summary>
+            <param name="scaling">缩放比例</param>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.IShape.Offset(System.Single,System.Single)">
+            <summary>平移</summary>
+            <param name="distanceX">X轴平移距离</param>
+            <param name="distanceY">Y轴平移距离</param>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.IShape.Rotate(System.Drawing.PointF,System.Single)">
+            <summary>旋转</summary>
+            <param name="centralPoint">中心点</param>
+            <param name="angle">旋转角度</param>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.IShape.Contains(System.Drawing.PointF)">
+            <summary>指定点是否在图形内部</summary>
+            <param name="point"></param>
+        </member>
+        <member name="P:ApeFree.Cake2D.Shapes.IShape.Points">
+            <summary>图形上所有的点</summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.IShape.GetBounds">
+            <summary>获取外接矩形</summary>
+        </member>
+        <member name="T:ApeFree.Cake2D.Shapes.IPlaneShape">
+            <summary>平面图形接口</summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.IPlaneShape.CalculatePerimeter">
+            <summary>计算周长</summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.IPlaneShape.CalculateArea">
+            <summary>计算面积</summary>
+        </member>
+        <member name="T:ApeFree.Cake2D.Shapes.IPolygon">
+            <summary>多边形接口</summary>
+        </member>
+        <member name="P:ApeFree.Cake2D.Shapes.IPolygon.Centroid">
+            <summary>多边形的重心</summary>
+        </member>
+        <member name="T:ApeFree.Cake2D.Shapes.IRectangle">
+            <summary>矩形接口</summary>
+        </member>
+        <member name="P:ApeFree.Cake2D.Shapes.IRectangle.Width">
+            <summary>矩形宽度</summary>
+        </member>
+        <member name="P:ApeFree.Cake2D.Shapes.IRectangle.Height">
+            <summary>矩形高度</summary>
+        </member>
+        <member name="P:ApeFree.Cake2D.Shapes.IRectangle.Angle">
+            <summary>旋转角度</summary>
+        </member>
+        <member name="T:ApeFree.Cake2D.Shapes.IEllipse">
+            <summary>椭圆形接口</summary>
+        </member>
+        <member name="P:ApeFree.Cake2D.Shapes.IEllipse.CenterPoint">
+            <summary>圆心</summary>
+        </member>
+        <member name="T:ApeFree.Cake2D.Shapes.ICircle">
+            <summary>正圆形接口</summary>
+        </member>
+        <member name="P:ApeFree.Cake2D.Shapes.ICircle.CenterPoint">
+            <summary>圆心</summary>
+        </member>
+        <member name="P:ApeFree.Cake2D.Shapes.ICircle.Radius">
+            <summary>半径</summary>
+        </member>
+        <member name="P:ApeFree.Cake2D.Shapes.LineShape.Points">
+            <inheritdoc/>
+        </member>
+        <member name="P:ApeFree.Cake2D.Shapes.LineShape.Length">
+            <summary>
+            线长
+            </summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.LineShape.Rotate(System.Drawing.PointF,System.Single)">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.LineShape.Scale(System.Single)">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.LineShape.Offset(System.Single,System.Single)">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.LineShape.Contains(System.Drawing.PointF)">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.LineShape.GetBounds">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.LineShape.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            构造线图形
+            </summary>
+            <param name="x1">起始点X坐标</param>
+            <param name="y1">起始点Y坐标</param>
+            <param name="x2">结束点X坐标</param>
+            <param name="y2">结束点Y坐标</param>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.LineShape.#ctor(System.Drawing.PointF,System.Drawing.PointF)">
+            <summary>
+            构造线图形
+            </summary>
+            <param name="startPoint">起始点</param>
+            <param name="endPoint">结束点</param>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.LineShape.#ctor(System.Drawing.Point,System.Double,System.Single)">
+            <summary>
+            构造线图形
+            </summary>
+            <param name="startPoint">起始点</param>
+            <param name="length">长度</param>
+            <param name="angle">角度</param>
+        </member>
+        <member name="T:ApeFree.Cake2D.Shapes.PolygonShape">
+            <summary>多边形基类</summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.PolygonShape.Scale(System.Single)">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.PolygonShape.Offset(System.Single,System.Single)">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.PolygonShape.Rotate(System.Drawing.PointF,System.Single)">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.PolygonShape.Contains(System.Drawing.PointF)">
+            <inheritdoc/>
+        </member>
+        <member name="P:ApeFree.Cake2D.Shapes.PolygonShape.Points">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.PolygonShape.GetBounds">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.PolygonShape.CalculatePerimeter">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.PolygonShape.CalculateArea">
+            <inheritdoc/>
+        </member>
+        <member name="P:ApeFree.Cake2D.Shapes.PolygonShape.Centroid">
+            <inheritdoc/>
+        </member>
+        <member name="T:ApeFree.Cake2D.Shapes.VectorSahpe">
+            <summary>
+            向量
+            </summary>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.VectorSahpe.Contains(System.Drawing.PointF)">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.VectorSahpe.GetBounds">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.VectorSahpe.Offset(System.Single,System.Single)">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.VectorSahpe.Rotate(System.Drawing.PointF,System.Single)">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApeFree.Cake2D.Shapes.VectorSahpe.Scale(System.Single)">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

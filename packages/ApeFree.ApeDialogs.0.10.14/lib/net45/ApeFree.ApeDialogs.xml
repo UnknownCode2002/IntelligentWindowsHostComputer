@@ -1,0 +1,647 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApeFree.ApeDialogs</name>
+    </assembly>
+    <members>
+        <member name="M:ApeFree.ApeDialogs.Core.BaseDialog`4.PrecheckFailsCallback(ApeFree.ApeDialogs.Settings.FormatCheckResult)">
+            <summary>
+            预处理未通过时执行的回调
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.Core.BaseDialog`4.AddOption(ApeFree.ApeDialogs.Settings.DialogOption,System.Action{ApeFree.ApeDialogs.Core.IDialog,`1})">
+            <summary>
+            设置选项
+            </summary>
+            <param name="option">选项信息</param>
+            <param name="onClick">单击动作</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.Core.BaseDialog`4.ClearOptions">
+            <summary>
+            清空选项
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.Core.BaseDialog`4.Show">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.Core.BaseDialog`4.Dismiss(System.Boolean)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.Core.BaseDialog`4.ShowHandler">
+            <summary>
+            Dialog显示的实现
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.Core.BaseDialog`4.DismissHandler">
+            <summary>
+            Dialog销毁的实现
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Core.IDialog`1">
+            <summary>
+            对话框标准接口
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Core.IDialog">
+            <summary>
+            对话框标准接口
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.Core.IDialog.Show">
+            <summary>
+            显示Dialog
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.Core.IDialog.Dismiss(System.Boolean)">
+            <summary>
+            销毁Dialog
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Core.Result`1">
+            <summary>
+            Dialog返回结果
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.Core.Result`1.UpdateResultData(`0)">
+            <summary>
+            更新结果数据
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.DialogProvider`1">
+            <summary>
+            Dialog提供器接口
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.DialogProvider`1.OptionTagColors">
+            <summary>
+            选项标签颜色表
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.DialogProvider`1.CreateMessageDialog(ApeFree.ApeDialogs.Settings.MessageDialogSettings,`0)">
+            <summary>
+            创建消息对话框
+            </summary>
+            <param name="settings">配置参数</param>
+            <param name="context">上下文</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.DialogProvider`1.CreatePromptDialog(ApeFree.ApeDialogs.Settings.PromptDialogSettings,`0)">
+            <summary>
+            创建提示对话框
+            </summary>
+            <param name="settings">配置参数</param>
+            <param name="context">上下文</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.DialogProvider`1.CreateInputDialog(ApeFree.ApeDialogs.Settings.InputDialogSettings,`0)">
+            <summary>
+            创建输入对话框
+            </summary>
+            <param name="settings">配置参数</param>
+            <param name="context">上下文</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.DialogProvider`1.CreatePasswordDialog(ApeFree.ApeDialogs.Settings.PasswordDialogSettings,`0)">
+            <summary>
+            创建密码对话框
+            </summary>
+            <param name="settings">配置参数</param>
+            <param name="context">上下文</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.DialogProvider`1.CreateSelectionDialog``1(ApeFree.ApeDialogs.Settings.SelectionDialogSettings{``0},System.Collections.Generic.IEnumerable{``0},``0,`0)">
+            <summary>
+            创建单选对话框
+            </summary>
+            <param name="settings">配置参数</param>
+            <param name="context">上下文</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.DialogProvider`1.CreateMultipleSelectionDialog``1(ApeFree.ApeDialogs.Settings.MultipleSelectionDialogSettings{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},`0)">
+            <summary>
+            创建多选对话框
+            </summary>
+            <param name="settings">配置参数</param>
+            <param name="context">上下文</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.DialogProvider`1.CreateDateTimeDialog(ApeFree.ApeDialogs.Settings.DateTimeDialogSettings,`0)">
+            <summary>
+            创建日期选择对话框
+            </summary>
+            <param name="settings">配置参数</param>
+            <param name="context">上下文</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.DialogProvider`1.CreateDataEntrySheetDialog(ApeFree.ApeDialogs.Settings.DataEntrySheet,ApeFree.ApeDialogs.Settings.DataEntrySheetDialogSettings,`0)">
+            <summary>
+            创建多字段表单对话框
+            </summary>
+            <param name="sheet">表单</param>
+            <param name="settings">配置参数</param>
+            <param name="context">上下文</param>
+            <returns></returns>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.DialogFactory">
+            <summary>
+            Dialog构造工厂
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.Settings.DialogOptionsExtensions.GetValidItems(System.Collections.Generic.IEnumerable{ApeFree.ApeDialogs.Settings.DialogOption})">
+            <summary>
+            获取有效选项（所有文本非空的选项）
+            </summary>
+            <param name="options"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Settings.DataEntrySheet">
+            <summary>
+            数据录入表单
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.DataEntrySheet.Fields">
+            <summary>
+            字段列表
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.DataEntrySheet.Item(System.Int32)">
+            <summary>
+            获取字段列表中第index个字段
+            </summary>
+            <param name="fieldIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.DataEntrySheet.Item(System.String)">
+            <summary>
+            获取字段列表中指定名称的字段
+            </summary>
+            <param name="fieldTitle"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Settings.FieldType">
+            <summary>
+            字段类型
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeDialogs.Settings.FieldType.Text">
+            <summary>
+            文本
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeDialogs.Settings.FieldType.Password">
+            <summary>
+            密码文本
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeDialogs.Settings.FieldType.HexBytes">
+            <summary>
+            16进制字节数组
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeDialogs.Settings.FieldType.FilePath">
+            <summary>
+            文件路径
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeDialogs.Settings.FieldType.PicturePath">
+            <summary>
+            图片文件路径
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeDialogs.Settings.FieldType.Number">
+            <summary>
+            数值
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeDialogs.Settings.FieldType.ComboBox">
+            <summary>
+            下拉列表
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeDialogs.Settings.FieldType.SingleChoice">
+            <summary>
+            单选
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeDialogs.Settings.FieldType.MultipleChoice">
+            <summary>
+            多选
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeDialogs.Settings.FieldType.DateTime">
+            <summary>
+            日期
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Settings.SheetField">
+            <summary>
+            表单字段
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.SheetField.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.SheetField.Data">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.Settings.SheetField.ValidityCheck">
+            <summary>
+            执行数据有效性检查
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Settings.SheetField`1">
+            <summary>
+            表单字段
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.SheetField`1.Data">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.SheetField`1.ValidityCheckHandler">
+            <summary>
+            数据有效性检查过程
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Settings.TextField">
+            <summary>
+            文本类型的表单字段
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Settings.PasswordField">
+            <summary>
+            密码类型的表单字段
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Settings.HexBytesField">
+            <summary>
+            Hex格式的字节数组类型的表单字段
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Settings.FilePathField">
+            <summary>
+            文件路径类型的表单字段
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Settings.NumberField">
+            <summary>
+            数值类型的表单字段
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.NumberField.DecimalPlaces">
+            <summary>
+            保留小数的位数
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.NumberField.Maximum">
+            <summary>
+            最大值
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.NumberField.Minimum">
+            <summary>
+            最小值
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Settings.SingleChoiceField">
+            <summary>
+            单选类型的表单字段
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Settings.ComboBoxField">
+            <summary>
+            单选类型的表单字段
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Settings.MultipleChoiceField">
+            <summary>
+            多选类型的表单字段
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Settings.DateTimeField">
+            <summary>
+            日期类型的表单字段
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Settings.FormatCheckResult">
+            <summary>
+            格式检查结果
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeDialogs.Settings.FormatCheckResult.Success">
+            <summary>
+            校验成功的结果
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Settings.DataEntrySheetDialogSettings">
+            <summary>
+            多字段表单Dialog设置
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.DateTimeDialogSettings.ConfirmOption">
+            <summary>
+            确认选项
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.DateTimeDialogSettings.CancelOption">
+            <summary>
+            取消选项
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.DateTimeDialogSettings.CurrentTimeOption">
+            <summary>
+            当前时间选项
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.DateTimeDialogSettings.DateTimeFormat">
+            <summary>
+            日期格式
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.DateTimeDialogSettings.DefaultDateTime">
+            <summary>
+            默认的时间
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.Settings.DateTimeDialogSettings.GetDefaultOptionsHandler">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <returns>Dialog默认选项集合</returns>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Settings.DialogOption">
+            <summary>
+            Dialog选项信息
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.DialogOption.Text">
+            <summary>
+            选项文本
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.DialogOption.Enabled">
+            <summary>
+            选项是否启用
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.DialogOption.OptionTag">
+            <summary>
+            选项标签
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.DialogOption.OptionSelectedCallback">
+            <summary>
+            选项被选中时的回调过程 
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Settings.OptionSelectedEventArgs">
+            <summary>
+            选择选项事件参数
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.OptionSelectedEventArgs.Dialog">
+            <summary>
+            当前正在操作的Dialog
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.OptionSelectedEventArgs.Option">
+            <summary>
+            选中的选项对应的选项信息
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Settings.DialogOptionTag">
+            <summary>
+            Dialog选项类型
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeDialogs.Settings.DialogOptionTag.Neutral">
+            <summary>
+            中性的
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeDialogs.Settings.DialogOptionTag.Positive">
+            <summary>
+            积极地
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeDialogs.Settings.DialogOptionTag.Negative">
+            <summary>
+            消极的
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeDialogs.Settings.DialogOptionTag.Functional">
+            <summary>
+            功能性的
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeDialogs.Settings.DialogOptionTag.Special">
+            <summary>
+            特殊的
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Settings.DialogSettings`1">
+            <summary>
+            Dialog选项
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.DialogSettings`1.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.DialogSettings`1.Content">
+            <summary>
+            提示语内容
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.DialogSettings`1.Cancelable">
+            <summary>
+            是否允许取消
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.DialogSettings`1.ColorStyle">
+            <summary>
+            配色风格
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.DialogSettings`1.DialogSize">
+            <summary>
+            对话框建议尺寸
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.Settings.DialogSettings`1.GetDefaultOptionsHandler">
+            <summary>
+            获取对话框的选项信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.DialogSettings`1.PrecheckResult">
+            <summary>
+            返回结果预校验
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.DialogSettings`1.OptionTagColors">
+            <summary>
+            选项标签颜色表
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeDialogs.Settings.DialogSettings`1.DefaultCancelOptionHandler">
+            <summary>
+            默认的取消选项处理过程
+            </summary>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Settings.ColorStyle">
+            <summary>
+            配色风格
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeDialogs.Settings.ColorStyle.Bright">
+            <summary>
+            明亮模式
+            </summary>
+        </member>
+        <member name="F:ApeFree.ApeDialogs.Settings.ColorStyle.Night">
+            <summary>
+            夜间模式
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.InputDialogSettings.ConfirmOption">
+            <summary>
+            确认选项
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.InputDialogSettings.CancelOption">
+            <summary>
+            取消选项
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.InputDialogSettings.ClearOption">
+            <summary>
+            清空选项
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.InputDialogSettings.DefaultText">
+            <summary>
+            默认输入文本
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.InputDialogSettings.MaximumLength">
+            <summary>
+            最大输入长度
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.InputDialogSettings.IsMultiline">
+            <summary>
+            是否多行
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.Settings.InputDialogSettings.GetDefaultOptionsHandler">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <returns>Dialog默认选项集合</returns>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.MessageDialogSettings.ConfirmOption">
+            <summary>
+            确认选项
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.Settings.MessageDialogSettings.GetDefaultOptionsHandler">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <returns>Dialog默认选项集合</returns>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.MultipleSelectionDialogSettings`1.ConfirmOption">
+            <summary>
+            确认选项
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.MultipleSelectionDialogSettings`1.CancelOption">
+            <summary>
+            取消选项
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.MultipleSelectionDialogSettings`1.SelectAllOption">
+            <summary>
+            全选选项
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.MultipleSelectionDialogSettings`1.ReverseSelectedOption">
+            <summary>
+            反选选项
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.MultipleSelectionDialogSettings`1.ItemDisplayTextConvertCallback">
+            <summary>
+            选项显示文本转换回调
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.Settings.MultipleSelectionDialogSettings`1.GetDefaultOptionsHandler">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <returns>Dialog默认选项集合</returns>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.PasswordDialogSettings.PasswordChar">
+            <summary>
+            密码遮掩字符
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.PromptDialogSettings.PositiveOption">
+            <summary>
+            积极选项
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.PromptDialogSettings.NegativeOption">
+            <summary>
+            消极选项
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.Settings.PromptDialogSettings.GetDefaultOptionsHandler">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <returns>Dialog默认选项集合</returns>
+        </member>
+        <member name="T:ApeFree.ApeDialogs.Settings.SelectionDialogSettings`1">
+            <summary>
+            选择Dialog设置
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.SelectionDialogSettings`1.ConfirmOption">
+            <summary>
+            确认选项
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.SelectionDialogSettings`1.CancelOption">
+            <summary>
+            取消选项
+            </summary>
+        </member>
+        <member name="P:ApeFree.ApeDialogs.Settings.SelectionDialogSettings`1.ItemDisplayTextConvertCallback">
+            <summary>
+            选项显示文本转换回调
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeDialogs.Settings.SelectionDialogSettings`1.GetDefaultOptionsHandler">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <returns>Dialog默认选项集合</returns>
+        </member>
+    </members>
+</doc>
