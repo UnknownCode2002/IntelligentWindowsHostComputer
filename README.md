@@ -1,6 +1,10 @@
 # 智能窗户2.0
 
 本项目为 Windows 平台的桌面应用程序（基于 WinForms），用于控制与管理智能窗户设备。该仓库包含 UI 界面、设备控制逻辑以及相关资源与第三方依赖包。
+<div style="display: flex; gap: 10px;">
+  <img src="images/release3.png" width="25%" alt="面3">
+  <img src="images/release2.jpg" width="75%" alt="面2">
+</div>
 
 ## 主要功能
 - 窗户开合控制与状态显示
@@ -47,4 +51,4 @@
 
 ---
 
-感谢使用与关注“智能窗户2.0”！
+此项目完成于2023年的一个校级项目，感谢使用与关注“智能窗户2.0”！
